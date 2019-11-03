@@ -1,0 +1,21 @@
+body{
+  text-align: center;
+  background-color: black;
+}
+
+#footer{
+  margin-top:10%;
+  color: white;
+}
+
+.jumb{
+  margin-top: 10%;
+}
+
+.submit-btn{
+  margin-top: 10px;
+}
+
+#url{
+  margin-top: 10px;
+}

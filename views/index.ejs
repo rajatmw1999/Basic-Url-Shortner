@@ -1,0 +1,21 @@
+<%-include('partials/header.ejs')-%>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-2">
+    </div>
+    <div class="col-lg-8 jumbotron jumb">
+      <h4 class="header">Url Shortener</h4>
+        <form class="" action="/url" method="post">
+          <input type="text" class="form-control s-bar" name="url" value="" placeholder="Enter url here" autofocus>
+          <button type="submit" class="btn btn-primary submit-btn" name="button">Submit</button>
+        </form>
+    </div>
+    <div class="col-lg-2">
+    </div>
+
+  </div>
+
+</div>
+
+<%-include('partials/footer.ejs')-%>
