@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + "/public"));
 //mongoose.connect('mongodb://localhost:27017/urlshort');
-mongoose.connect("mongodb+srv://rajat-admin:rajat1999@cluster0-nbxxl.mongodb.net/urlshort",{useNewUrlParser: true});
+mongoose.connect("mongodb+srv://rajat-admin:rajat1999@cluster0-nbxxl.mongodb.net/articledb",{useNewUrlParser: true});
 
 //including routes
 app.use(indexRoute);
