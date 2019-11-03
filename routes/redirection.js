@@ -8,7 +8,7 @@ router.get('/:short', function(req,res){
     if(err){
       console.log(err);
     }  else{
-      if(found){
+      if(!found){
       res.render('redirect',{url:" "});
     }else{
       res.render('redirect',{url:found.url});
